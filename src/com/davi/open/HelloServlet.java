@@ -43,7 +43,7 @@ public class HelloServlet extends HttpServlet {
 		writer.println("<h1>Hello " + yourName + "</h1>");
 		writer.close();
 		
-		
+//add the comment to check the commit		
 		doGet(request, response);
 	}
 
